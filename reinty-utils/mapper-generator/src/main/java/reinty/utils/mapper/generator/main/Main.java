@@ -1,5 +1,6 @@
 package reinty.utils.mapper.generator.main;
 
+import reinty.utils.mapper.generator.entity.taiwanLanshou.FreightRule;
 import reinty.utils.mapper.generator.entity.taiwanLanshou.PostHouse;
 import reinty.utils.mapper.generator.handler.CreateTableHandler;
 import reinty.utils.mapper.generator.handler.MapperGenerator;
@@ -18,7 +19,7 @@ public class Main {
 
         System.out.println("\n");
         System.out.println("-------------------生成 Create 语句--------------------");
-        String createStatement = CreateTableHandler.getCreateStatement(PostHouse.class, PostHouse.getComments());
+        String createStatement = CreateTableHandler.getCreateStatement(FreightRule.class, FreightRule.getComments());
         System.out.println(createStatement);
 
 

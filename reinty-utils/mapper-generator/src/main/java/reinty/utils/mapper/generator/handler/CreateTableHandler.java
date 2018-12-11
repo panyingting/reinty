@@ -6,6 +6,7 @@ import reinty.utils.mapper.generator.index.PrimaryKey;
 import reinty.utils.mapper.generator.index.UniqueKey;
 
 import java.lang.reflect.Field;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -97,7 +98,6 @@ public class CreateTableHandler extends AbstractHandler{
         for(Field field: fieldList){
             PrimaryKey primaryKey = field.getAnnotation(PrimaryKey.class);
             if(primaryKey != null){
-
             }
         }
 
