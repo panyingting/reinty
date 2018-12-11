@@ -3,7 +3,7 @@ package com.reinty.pan.result;
 /**
  * 结果枚举
  *
- * @author zhangyinglei1
+ * @author panyingting
  * @date 2018/8/7 16:11
  */
 
